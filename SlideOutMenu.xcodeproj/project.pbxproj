@@ -14,6 +14,7 @@
 		F6EBD3E81DA6E51200664E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EBD3E61DA6E51200664E27 /* LaunchScreen.storyboard */; };
 		F6EBD3F31DA6E51200664E27 /* SlideOutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EBD3F21DA6E51200664E27 /* SlideOutMenuTests.swift */; };
 		F6EBD3FE1DA6E51200664E27 /* SlideOutMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EBD3FD1DA6E51200664E27 /* SlideOutMenuUITests.swift */; };
+		F6EBD40C1DA6E58600664E27 /* SlideOutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EBD40B1DA6E58600664E27 /* SlideOutMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F6EBD3F91DA6E51200664E27 /* SlideOutMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EBD3FD1DA6E51200664E27 /* SlideOutMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenuUITests.swift; sourceTree = "<group>"; };
 		F6EBD3FF1DA6E51200664E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EBD40B1DA6E58600664E27 /* SlideOutMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F6EBD3DD1DA6E51200664E27 /* AppDelegate.swift */,
 				F6EBD3DF1DA6E51200664E27 /* ViewController.swift */,
+				F6EBD40B1DA6E58600664E27 /* SlideOutMenu.swift */,
 				F6EBD3E11DA6E51200664E27 /* Main.storyboard */,
 				F6EBD3E41DA6E51200664E27 /* Assets.xcassets */,
 				F6EBD3E61DA6E51200664E27 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EBD40C1DA6E58600664E27 /* SlideOutMenu.swift in Sources */,
 				F6EBD3E01DA6E51200664E27 /* ViewController.swift in Sources */,
 				F6EBD3DE1DA6E51200664E27 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				F6EBD4041DA6E51200664E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6EBD4051DA6E51200664E27 /* Build configuration list for PBXNativeTarget "SlideOutMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				F6EBD4071DA6E51200664E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6EBD4081DA6E51200664E27 /* Build configuration list for PBXNativeTarget "SlideOutMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				F6EBD40A1DA6E51200664E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

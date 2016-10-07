@@ -8,17 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//--------------------------------------------------------------------------------
+// For using Slide Out Menu Class, change UIViewController for SlideOutMenu
+//--------------------------------------------------------------------------------
 
+class ViewController: SlideOutMenu {
+    
+    
+    //--------------------------------------------------------------------------------
+    // Test button
+    //--------------------------------------------------------------------------------
+    
+    let button = UIButton(type: UIButtonType.contactAdd)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.cyan
+        self.view.addSubview(button)
+        button.center = self.view.center
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
 
 
 }
